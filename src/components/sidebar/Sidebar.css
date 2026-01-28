@@ -1,0 +1,59 @@
+.navbar-link {
+    text-decoration: none;
+    /* Remove underline */
+    margin: 0;
+    /* Remove margin */
+    display: block;
+    /* Ensure full clickable area */
+
+}
+
+/* Target the ListItemButton directly inside any .navbar-link */
+.navbar-link .MuiListItemButton-root {
+    margin: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+/* Active state styling */
+.navbar-link.active .MuiListItemButton-root {
+    position: relative; /* Needed for absolute positioning of the pseudo-element */
+    background-color: #F0F9FF;
+    color: #006EC2;
+}
+
+.navbar-link.active .MuiListItemButton-root::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%; /* Half height of the ListItem */
+    width: 4px;  /* Thickness of the accent */
+    background-color: #006EC2;
+    border-radius: 2px;
+}
+
+/* Active icon and text */
+.navbar-link.active .MuiListItemIcon-root,
+.navbar-link.active .MuiListItemText-primary {
+    color: #006EC2;
+    width: 20px;
+    height: 20px;
+}
+
+/* .MuiListItemButton-root:hover {
+  background-color: transparent !important;
+} */
+
+/* Font size and weight */
+.MuiListItemText-root span {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    min-width: fit-content !important;
+    color: #44546F;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+}

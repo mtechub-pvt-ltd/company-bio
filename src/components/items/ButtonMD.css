@@ -1,0 +1,332 @@
+.css-1lnjbx7-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    background-color: #0d6efd !important;
+    color: #ffcb32;
+    border-bottom: 1px solid #ffcb32;
+}
+
+.css-1lnjbx7-MuiButtonBase-root-MuiListItemButton-root.Mui-selected:hover {
+    background-color: rgb(52 97 255 / 15%) !important;
+    border-bottom: 1px solid blue;
+
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+}
+
+.component-error-text {
+    color: 'red' !important;
+}
+
+.icon {
+    padding: 10px;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.input-field:focus {
+    border: none;
+}
+
+.custom-datepicker {
+    border: 1px solid #c1baba;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* style={{width:'100%',borderRadius:'30px',backgroundColor:'#00b096',height:'40px'}} */
+.btn {
+    /* background-color: #00b096 !important; */
+    /* color: #fff !important; */
+    padding: 10px 15px !important;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize !important;
+    /* width: 100% !important; */
+    opacity: 0.9 !important;
+    height: 35px !important;
+    font-size: 15px !important;
+
+    /* font-weight: 600; */
+}
+
+.btn:hover {
+    opacity: 1;
+    background-color: #006EC2 !important;
+    box-shadow: none;
+    color: white !important;
+
+}
+
+.btnDelete {
+    background-color: #0fc1f3 !important;
+    color: #fff !important;
+    padding: 10px 15px !important;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize !important;
+    width: 100% !important;
+    opacity: 0.9 !important;
+    height: 38px !important;
+    font-size: 15px !important;
+    border-radius: 30px !important;
+
+}
+
+.btnDelete:hover {
+    opacity: 1;
+    background-color: lightgrey !important;
+}
+
+.btnSave {
+    background-color: #fff !important;
+    color: #12bf24 !important;
+    padding: 10px 15px !important;
+    cursor: pointer;
+    text-transform: capitalize !important;
+    opacity: 0.9 !important;
+    height: 38px !important;
+    font-size: 15px !important;
+    border-radius: 30px !important;
+}
+
+.btnSave:hover {
+    opacity: 1;
+    color: #12bf24 !important;
+    border: 1px solid #12bf24 !important;
+
+}
+
+.btnSaveOnly {
+    background-color: #fff !important;
+    color: #3461ff !important;
+    padding: 10px 15px !important;
+    border: 1px solid #3461ff !important;
+
+    cursor: pointer;
+    text-transform: capitalize !important;
+    opacity: 0.9 !important;
+    height: 38px !important;
+    font-size: 15px !important;
+    border-radius: 30px !important;
+}
+
+.btnSaveOnly:hover {
+    opacity: 1;
+    background-color: #3461ff !important;
+    color: #fff !important
+}
+
+.btnClose {
+    background-color: #fff;
+    color: #e72e2e !important;
+    padding: 10px 15px !important;
+    border: 1px solid #e72e2e !important;
+    ;
+    cursor: pointer;
+    text-transform: capitalize !important;
+    opacity: 0.9 !important;
+    height: 38px !important;
+    font-size: 15px !important;
+    border-radius: 30px !important;
+}
+
+.btnClose:hover {
+    opacity: 1;
+    background-color: #e72e2e !important;
+    color: white !important;
+}
+
+.btnImage {
+    background-color: #0fc1f3;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* background-color: #FFB400; */
+    transition: .7s;
+    box-shadow: none;
+
+    /* background-color:  #0fc1f3 !important;
+      color: #fff!important;
+      padding: 10px 15px !important;
+      border: none;
+      cursor: pointer;
+      text-transform: capitalize !important;
+      width: 100% !important;
+      opacity: 0.9 !important;
+      height:38px !important;
+      font-size:16px !important;
+      border-radius:10px !important; */
+}
+
+.btnImage:hover {
+    opacity: 1;
+    background-color: #00b096 !important;
+}
+
+.btn1 {
+    background-color: rgb(224 224 224) !important;
+    color: rgb(150, 143, 143) !important;
+    padding: 10px 15px !important;
+    border: none;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+    /* width: 100% !important; */
+    opacity: 0.9 !important;
+    height: 35px !important;
+    font-size: 15px !important;
+}
+
+.btn1:hover {
+    opacity: 1;
+    background-color: rgb(224 224 224) !important;
+    box-shadow: none;
+}
+
+/* Phone input  */
+.input-phone-number input:focus {
+    outline: none !important;
+    border: 2px solid #0fc1f3 !important;
+    box-shadow: none !important;
+}
+
+.input-phone-number input {
+    /* margin-top: -10px; */
+    height: 43px;
+    width: 285px !important;
+    outline: none !important;
+    border: 1px solid lightgray !important;
+    box-shadow: none !important;
+}
+
+/* Custom Verification  */
+.custom-styles {
+    /* padding:20px; */
+    /* --ReactInputVerificationCode-itemWidth: 2.5rem; */
+    --ReactInputVerificationCode-itemHeight: 3.5rem;
+}
+
+.custom-styles .ReactInputVerificationCode__item {
+    position: relative;
+    color: #262626;
+    font-weight: 600;
+}
+
+.custom-styles .ReactInputVerificationCode__item,
+.custom-styles .ReactInputVerificationCode__item.is-active {
+    box-shadow: none;
+}
+
+.custom-styles .ReactInputVerificationCode__item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ebebeb;
+    transition: background-color 0.2s ease-out;
+}
+
+.custom-styles .ReactInputVerificationCode__item.is-active:after {
+    background-color: #10c0f2;
+}
+
+/* Menu Item  */
+
+.MenuItemStyle:hover {
+    /* background-color:#d1d1d1; */
+    cursor: pointer;
+}
+
+/* Verification Code  */
+.character {
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    /* light theme */
+    color: #272729;
+    background-color: #f6f5fa;
+    box-shadow: none;
+
+}
+
+/* Drag and drop  */
+#form-file-upload {
+    height: 16rem;
+    width: 28rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#input-file-upload {
+    display: none;
+}
+
+#label-file-upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+}
+
+#label-file-upload.drag-active {
+    background-color: #ffffff;
+}
+
+.upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+}
+
+.upload-button:hover {
+    text-decoration-line: underline;
+}
+
+#drag-file-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .input-phone-number input {
+        /* margin-top: -10px; */
+        height: 43px;
+        width: 185px !important;
+        outline: none !important;
+        border: 1px solid lightgray !important;
+        box-shadow: none !important;
+    }
+}

@@ -1,0 +1,27 @@
+/* Blue background for toolbar */
+.tox-editor-header,
+.tox .tox-toolbar,
+.tox .tox-toolbar__primary {
+  background-color: #003b5c !important;
+}
+
+/* Remove white background from toolbar buttons */
+.tox .tox-toolbar__button,
+.tox .tox-toolbar__button--enabled {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Make toolbar SVG icons white */
+.tox .tox-toolbar__button svg,
+.tox .tox-toolbar__button span {
+  fill: white !important;
+  color: white !important;
+}
+
+/* Optional: hover effect */
+.tox .tox-toolbar__button:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 4px;
+}

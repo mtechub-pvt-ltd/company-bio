@@ -1,0 +1,46 @@
+ /* styles.css */
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Laila", sans-serif;
+}
+
+.page-container>div {
+    flex: 1;
+}
+
+.page-container>div:nth-child(1) {
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: 550;
+    color: #424242;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+p {
+    color: #818181;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.heading { 
+    cursor: pointer;
+    color: #545454;
+    /* Set the initial color for non-active headings */
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500; 
+}
+
+.heading.active {
+    color: #C4B1AB; 
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 550; 
+}

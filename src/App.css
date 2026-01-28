@@ -1,0 +1,135 @@
+
+
+body {
+  background-color: white;
+  ;
+}
+
+ *{
+  font-family: "Poppins", sans-serif  !important;
+ }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.react-country-state-city input {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.country-select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    font-size: 16px;
+}
+.country-select select {
+    width: 100% !important;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ @media (max-width: 600px) {
+    .filter-icon {
+      display: none;
+    }
+  }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* global styling  */
+
+
+
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 110%;
+  color: #172B4D;
+ 
+}
+
+/* p, span, label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600; 
+  color: #5E5C5C;
+ 
+  
+} */
+
+
+
+
+/* styles for empty icons when no data available from backend */
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 20px;
+  
+}
+
+.empty-image {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.empty-heading {
+  font-size: 25px;
+  margin: 0;
+  color: #333;
+}
+
+.empty-paragraph {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10px;
+}
+/* ==================================== */
